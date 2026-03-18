@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Products | Glades International Corporation</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- ===== HEADER ===== -->
+  <header>
+    <div class="container">
+      <nav class="navbar">
+        <a href="index.html" class="logo">
+          <img src="ASSET/Glades_Logo.png" alt="Glades International Logo" onerror="this.style.display='none'">
+          Glades International
+        </a>
+        <div class="mobile-menu-btn"><i class="fas fa-bars"></i></div>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="products.html" class="active">Products</a></li>
+          <li><a href="capabilities.html">Capabilities</a></li>
+          <li><a href="why-glades.html">Why Glades</a></li>
+          <li><a href="certifications.html">Certifications</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <!-- ===== PAGE HERO ===== -->
+  <section class="page-hero">
+    <div class="container">
+      <h1>Our Products</h1>
+      <p>Innovative packaging solutions designed for excellence and sustainability</p>
+    </div>
+    <div class="scroll-indicator"><i class="fas fa-chevron-down"></i><span>Scroll</span></div>
+  </section>
+  <!-- ===== PRODUCT CATALOG ===== -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header fade-in">
+        <h2>Comprehensive Product Range</h2>
+        <p>From food packaging to industrial solutions --- quality products tailored to your needs</p>
+      </div>
+      <!-- Category Filters -->
+      <div class="categories-filter fade-in">
+        <button class="filter-btn active" data-category="all">All Products</button>
+        <button class="filter-btn" data-category="food">Food Packaging</button>
+        <button class="filter-btn" data-category="beverage">Beverage</button>
+        <button class="filter-btn" data-category="industrial">Industrial</button>
+        <button class="filter-btn" data-category="sustainable">Sustainable</button>
+      </div>
+      <!-- Products Grid -->
+      <div class="products-grid">
+        <div class="product-card fade-in" data-category="food">
+          <div class="product-image-area" style="background:linear-gradient(135deg,#0E3A5D,#1F5E8A);">
+            <i class="fas fa-box"></i>
+          </div>
+          <div class="product-content">
+            <span class="product-category">Food Packaging</span>
+            <h3>Thermoformed Containers</h3>
+            <p>High-quality thermoformed food containers for QSR and food service applications. FDA-compliant materials.</p>
+            <ul class="product-features">
+              <li><i class="fas fa-check-circle"></i> FDA Approved</li>
+              <li><i class="fas fa-check-circle"></i>
+Temperature Resistant</li>
+              <li><i class="fas fa-check-circle"></i> Leak-Proof Design</li>
+              <li><i class="fas fa-check-circle"></i> Custom Sizes Available</li>
+            </ul>
+            <div class="product-cta">
+              <!-- Task 3: Quote button triggers modal -->
+              <button class="btn btn-outline request-quote-btn" data-product="Thermoformed Containers">
+                <i class="fas fa-file-invoice-dollar"></i> Request Quote
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="product-card fade-in" data-category="food">
+          <div class="product-image-area" style="background:linear-gradient(135deg,#1F5E8A,#2F7FB3);">
+            <i class="fas fa-utensils"></i>
+          </div>
+          <div class="product-content">
+            <span class="product-category">Food Packaging</span>
+            <h3>Injection Molded Containers</h3>
+            <p>Durable injection molded containers for retail and food service. Designed for strength and reusability.</p>
+            <ul class="product-features">
+              <li><i class="fas fa-check-circle"></i> High Durability</li>
+              <li><i class="fas fa-check-circle"></i> Stackable Design</li>
+              <li><i class="fas fa-check-circle"></i> Microwave Safe</li>
+              <li><i class="fas fa-check-circle"></i>
+BPA-Free</li>
+            </ul>
+            <div class="product-cta">
+              <button class="btn btn-outline request-quote-btn" data-product="Injection Molded Containers">
+                <i class="fas fa-file-invoice-dollar"></i> Request Quote
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="product-card fade-in" data-category="beverage">
+          <div class="product-image-area" style="background:linear-gradient(135deg,#0E3A5D,#2F7FB3);">
+            <i class="fas fa-coffee"></i>
+          </div>
+          <div class="product-content">
+            <span class="product-category">Beverage</span>
+            <h3>Cup &amp; Lid Solutions</h3>
+            <p>Complete cup and lid systems for hot and cold beverages. Perfect for coffee shops and QSR brands.</p>
+            <ul class="product-features">
+              <li><i class="fas fa-check-circle"></i> Hot &amp; Cold Compatible</li>
+              <li><i class="fas fa-check-circle"></i> Secure Lid Fit</li>
+              <li><i class="fas fa-check-circle"></i> Insulated Options</li>
+              <li><i class="fas fa-check-circle"></i> Custom Branding</li>
+            </ul>
+            <div class="product-cta">
+              <button class="btn btn-outline request-quote-btn" data-product="Cup & Lid Solutions">
+                <i class="fas fa-file-invoice-dollar"></i> Request Quote
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="product-card fade-in" data-category="food">
+          <div class="product-image-area" style="background:linear-gradient(135deg,#1F5E8A,#0E3A5D);">
+            <i class="fas fa-hamburger"></i>
+          </div>
+          <div class="product-content">
+            <span class="product-category">Food Packaging</span>
+            <h3>Clamshell Containers</h3>
+            <p>Versatile clamshell packaging for burgers, sandwiches, and takeout. Secure closure and ventilation.</p>
+            <ul class="product-features">
+              <li><i class="fas fa-check-circle"></i> Secure Closure</li>
+              <li><i class="fas fa-check-circle"></i>
+Ventilation System</li>
+              <li><i class="fas fa-check-circle"></i> Grease Resistant</li>
+              <li><i class="fas fa-check-circle"></i> Multiple Sizes</li>
+            </ul>
+            <div class="product-cta">
+              <button class="btn btn-outline request-quote-btn" data-product="Clamshell Containers">
+                <i class="fas fa-file-invoice-dollar"></i> Request Quote
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="product-card fade-in" data-category="sustainable">
+          <div class="product-image-area" style="background:linear-gradient(135deg,#2F7FB3,#1F5E8A);">
+            <i class="fas fa-leaf"></i>
+          </div>
+          <div class="product-content">
+            <span class="product-category">Sustainable</span>
+            <h3>Eco-Friendly Packaging</h3>
+            <p>Sustainable packaging from biodegradable and recyclable materials. Reduce your environmental footprint.</p>
+            <ul class="product-features">
+              <li><i class="fas fa-check-circle"></i>
+Biodegradable Materials</li>
+              <li><i class="fas fa-check-circle"></i>
+Compostable Options</li>
+              <li><i class="fas fa-check-circle"></i>
+Recyclable</li>
+              <li><i class="fas fa-check-circle"></i> Carbon Neutral</li>
+            </ul>
+            <div class="product-cta">
+              <button class="btn btn-outline request-quote-btn" data-product="Eco-Friendly Packaging">
+                <i class="fas fa-file-invoice-dollar"></i> Request Quote
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="product-card fade-in" data-category="industrial">
+          <div class="product-image-area" style="background:linear-gradient(135deg,#2F7FB3,#1F5E8A);">
+            <i class="fas fa-industry"></i>
+          </div>
+          <div class="product-content">
+            <span class="product-category">Industrial</span>
+            <h3>Custom Manufacturing</h3>
+            <p>Tailored manufacturing for specialized packaging needs. From concept to full-scale production.</p>
+            <ul class="product-features">
+              <li><i class="fas fa-check-circle"></i> Custom Design</li>
+              <li><i class="fas fa-check-circle"></i> Rapid Prototyping</li>
+              <li><i class="fas fa-check-circle"></i> Quality Assurance</li>
+              <li><i class="fas fa-check-circle"></i> Scalable Production</li>
+            </ul>
+            <div class="product-cta">
+              <button class="btn btn-outline request-quote-btn" data-product="Custom Manufacturing">
+                <i class="fas fa-file-invoice-dollar"></i> Request Quote
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ===== PRODUCT CUSTOMIZER ===== -->
+  <section class="customizer-section">
+    <div class="container">
+      <div class="section-header fade-in" style="margin-bottom:40px;">
+        <h2>Interactive Product Explorer</h2>
+        <p>Click the color swatches to see our products in different variants</p>
+      </div>
+      <div class="customizer-grid">
+        <!-- 1. Plastic Cup -->
+        <div class="prod-card">
+          <div class="overflow"><div class="product-image">
+            <img src="ASSET/CUP_WHITE.png" alt="Plastic Cup White" class="active" data-color="white" onerror="this.style.display='none'">
+            <img src="ASSET/CUP_BROWN.png" alt="Plastic Cup Brown" data-color="brown" onerror="this.style.display='none'">
+            <img src="ASSET/CUP_BLACK.png" alt="Plastic Cup Black" data-color="black" onerror="this.style.display='none'">
+            <i class="fas fa-coffee" style="font-size:3.5rem;color:rgba(14,58,93,0.25);position:absolute;"></i>
+          </div></div>
+          <div class="glass"><div class="gradient-blur"><div></div><div></div><div></div><div></div><div></div><div></div></div></div>
+          <div class="content">
+            <h2>EcoCup Pro</h2>
+            <p>Premium reusable plastic cup with ergonomic design.</p>
+            <div class="options">
+              <div data-color="white" class="active" style="background:#fff;border:2px solid #ddd;" title="White"></div>
+              <div data-color="brown" style="background:#8B4513;" title="Brown"></div>
+              <div data-color="black" style="background:#1e1e1e;" title="Black"></div>
+            </div>
+          </div>
+        </div>
+        <!-- 2. Food Container -->
+        <div class="prod-card">
+          <div class="overflow"><div class="product-image">
+            <img src="ASSET/Plastic food container_white.png" alt="Food Container White" class="active" data-color="white" onerror="this.style.display='none'">
+            <img src="ASSET/Plastic food container_black.png" alt="Food Container Black" data-color="black" onerror="this.style.display='none'">
+            <i class="fas fa-box" style="font-size:3.5rem;color:rgba(255,255,255,0.3);position:absolute;"></i>
+          </div></div>
+          <div class="glass"><div class="gradient-blur"><div></div><div></div><div></div><div></div><div></div><div></div></div></div>
+          <div class="content">
+            <h2>SafeStore Container</h2>
+            <p>Durable food-safe container with secure locking lid.</p>
+            <div class="options">
+              <div data-color="white" class="active" style="background:#fff;border:2px solid #ddd;" title="White"></div>
+              <div data-color="black" style="background:#1e1e1e;" title="Black"></div>
+            </div>
+          </div>
+        </div>
+        <!-- 3. Condiment Cups -->
+        <div class="prod-card">
+          <div class="overflow"><div class="product-image">
+            <img src="ASSET/Plastic_condiment_cups_white.png" alt="Condiment Cups White" class="active" data-color="white" onerror="this.style.display='none'">
+            <img src="ASSET/Plastic_condiment_cups_brown.png" alt="Condiment Cups Brown" data-color="brown" onerror="this.style.display='none'">
+            <img src="ASSET/Plastic_condiment_cups_black.png" alt="Condiment Cups Black" data-color="black" onerror="this.style.display='none'">
+            <i class="fas fa-utensils" style="font-size:3.5rem;color:rgba(14,58,93,0.25);position:absolute;"></i>
+          </div></div>
+          <div class="glass"><div class="gradient-blur"><div></div><div></div><div></div><div></div><div></div><div></div></div></div>
+          <div class="content">
+            <h2>MiniServe Cups</h2>
+            <p>Perfect portion control cups for sauces and condiments.</p>
+            <div class="options">
+              <div data-color="white" class="active" style="background:#fff;border:2px solid #ddd;" title="White"></div>
+              <div data-color="brown" style="background:#8B4513;" title="Brown"></div>
+              <div data-color="black" style="background:#1e1e1e;" title="Black"></div>
+            </div>
+          </div>
+        </div>
+        <!-- 4. Clamshell -->
+        <div class="prod-card">
+          <div class="overflow"><div class="product-image">
+            <img src="ASSET/Clumshell_natural_brown.png" alt="Clamshell Natural" class="active" data-color="natural" onerror="this.style.display='none'">
+            <img src="ASSET/Clumshell_natural_matte_brown.png" alt="Clamshell Matte" data-color="matte" onerror="this.style.display='none'">
+            <i class="fas fa-leaf" style="font-size:3.5rem;color:rgba(139,115,85,0.4);position:absolute;"></i>
+          </div></div>
+          <div class="glass"><div class="gradient-blur"><div></div><div></div><div></div><div></div><div></div><div></div></div></div>
+          <div class="content">
+            <h2>EcoShell Box</h2>
+            <p>Biodegradable clamshell from sustainable natural fibers.</p>
+            <div class="options">
+              <div data-color="natural" class="active" style="background:#D2B48C;" title="Natural"></div>
+              <div data-color="matte" style="background:#8B7355;" title="Matte"></div>
+            </div>
+          </div>
+        </div>
+        <!-- 5. Spoon & Fork -->
+        <div class="prod-card">
+          <div class="overflow"><div class="product-image">
+            <img src="ASSET/Spoon&fork_white.png" alt="Spoon Fork White" class="active" data-color="white" onerror="this.style.display='none'">
+            <img src="ASSET/Spoon&fork_white_brown.png" alt="Spoon Fork White Brown" data-color="white_brown" onerror="this.style.display='none'">
+            <img src="ASSET/Spoon&fork_black.png" alt="Spoon Fork Black" data-color="black" onerror="this.style.display='none'">
+            <i class="fas fa-utensils" style="font-size:3.5rem;color:rgba(14,58,93,0.25);position:absolute;"></i>
+          </div></div>
+          <div class="glass"><div class="gradient-blur"><div></div><div></div><div></div><div></div><div></div><div></div></div></div>
+          <div class="content">
+            <h2>DineSet Cutlery</h2>
+            <p>Lightweight eco-friendly spoon and fork set.</p>
+            <div class="options">
+              <div data-color="white" class="active" style="background:#f5f5f5;border:2px solid #ddd;" title="White"></div>
+              <div data-color="white_brown" style="background:linear-gradient(135deg,#f5f5f5 50%,#8B4513 50%);" title="White/Brown"></div>
+              <div data-color="black" style="background:#1e1e1e;" title="Black"></div>
+            </div>
+          </div>
+        </div>
+        <!-- 6. Paper Container -->
+        <div class="prod-card">
+          <div class="overflow"><div class="product-image">
+            <img src="ASSET/Paper_container_brown_white.png" alt="Paper Container Brown White" class="active" data-color="brown_white" onerror="this.style.display='none'">
+            <img src="ASSET/Paper_container_brown.png" alt="Paper Container Brown" data-color="brown" onerror="this.style.display='none'">
+            <i class="fas fa-scroll" style="font-size:3.5rem;color:rgba(139,98,66,0.4);position:absolute;"></i>
+          </div></div>
+          <div class="glass"><div class="gradient-blur"><div></div><div></div><div></div><div></div><div></div><div></div></div></div>
+          <div class="content">
+            <h2>NaturaPack Box</h2>
+            <p>Kraft paper container from recycled materials.</p>
+            <div class="options">
+              <div data-color="brown_white" class="active" style="background:linear-gradient(135deg,#c8a882 50%,#fff 50%);" title="Brown/White"></div>
+              <div data-color="brown" style="background:#8B6242;" title="Brown"></div>
+            </div>
+          </div>
+        </div>
+        <!-- 7. Plastic Small Cup -->
+        <div class="prod-card">
+          <div class="overflow"><div class="product-image">
+            <img src="ASSET/Plastic_white_cup.png" alt="Plastic White Cup" class="active" data-color="white" onerror="this.style.display='none'">
+            <img src="ASSET/Plastic_black_cup.png" alt="Plastic Black Cup" data-color="black" onerror="this.style.display='none'">
+            <i class="fas fa-glass-martini-alt" style="font-size:3.5rem;color:rgba(14,58,93,0.25);position:absolute;"></i>
+          </div></div>
+          <div class="glass"><div class="gradient-blur"><div></div><div></div><div></div><div></div><div></div><div></div></div></div>
+          <div class="content">
+            <h2>SlimLine Cup</h2>
+            <p>Compact stackable cup for beverages and samples.</p>
+            <div class="options">
+              <div data-color="white" class="active" style="background:#f5f5f5;border:2px solid #ddd;" title="White"></div>
+              <div data-color="black" style="background:#1e1e1e;" title="Black"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ===== CTA ===== -->
+  <section class="section" style="background:linear-gradient(135deg,var(--primary) 0%,var(--primary-mid) 100%);text-align:center;">
+    <div class="container">
+      <div class="fade-in" style="max-width:660px;margin:0 auto;">
+        <h2 style="color:var(--white);margin-bottom:14px;">Need a Custom Solution?</h2>
+        <p style="color:rgba(255,255,255,0.85);font-size:1.05rem;margin-bottom:28px;">Our team can develop custom packaging solutions tailored to your specific requirements.</p>
+        <a href="contact.html" class="btn btn-accent btn-large">
+          <i class="fas fa-envelope"></i> Contact Us Today
+        </a>
+      </div>
+    </div>
+  </section>
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-about">
+          <div class="footer-logo"><i class="fas fa-box-open"></i> Glades International</div>
+          <p>Your trusted partner for innovative packaging solutions that perform --- today and into the future.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="capabilities.html">Capabilities</a></li>
+            <li><a href="certifications.html">Certifications</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="why-glades.html">Why Glades</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#">Careers</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h4>Contact Info</h4>
+          <p><i class="fas fa-map-marker-alt"></i> Solid Street, LIIP, Mamplasan, Biñan City, Laguna, Philippines 4024</p>
+          <p><i class="fas fa-phone"></i> (+632) 531-2203 / (+632) 531-2248</p>
+          <p><i class="fas fa-envelope"></i>
+info@gladesinternational.com</p>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>&copy; 2025 Glades International Corporation. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
